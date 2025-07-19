@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="description" content=".">
+  <meta name="keywords" content=".">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Human-Operational Scene</title>
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-PYVRSFMDRL"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+
+    gtag('js', new Date());
+
+    gtag('config', 'G-PYVRSFMDRL');
+  </script>
+
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro" rel="stylesheet">
+
+  <link rel="stylesheet" href="./static/css/bulma.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-carousel.min.css">
+  <link rel="stylesheet" href="./static/css/bulma-slider.min.css">
+  <link rel="stylesheet" href="./static/css/fontawesome.all.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+  <link rel="stylesheet" href="./static/css/index.css">
+  <link rel="icon" href="./static/images/favicon.svg">
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script defer src="./static/js/fontawesome.all.min.js"></script>
+  <script src="./static/js/bulma-carousel.min.js"></script>
+  <script src="./static/js/bulma-slider.min.js"></script>
+  <script src="./static/js/index.js"></script>
+</head>
+
+<body>
+
+  <section class="hero">
+    <div class="hero-body">
+      <div class="container is-max-desktop">
+        <div class="columns is-centered">
+          <div class="column has-text-centered">
+            <h1 class="title is-1 publication-title">Human-Operational 3D Indoor Scene Generation with Large Language
+              Model Driven Anthropometric Simulation</h1>
+            <div class="is-size-5 publication-authors">
+              <!-- <span class="author-block">
+              <a href="https://keunhong.com">Keunhong Park</a><sup>1</sup>,</span> -->
+              <span class="author-block"> Anonymous Authors</span>
+            </div>
+
+            <div class="column has-text-centered">
+              <div class="publication-links">
+                <!-- PDF Link. -->
+                <span class="link-block">
+                  <a class="button is-normal is-rounded is-dark is-static">
+                    <span class="icon">
+                      <i class="fas fa-file-pdf"></i></span>
+                    <span>Coming Soon</span>
+                  </a>
+                </span>
+                </a>
+                </span>
+
+                <!-- Video Link. -->
+                <span class="link-block">
+                  <a class="button is-normal is-rounded is-dark is-static">
+                    <span class="icon"><i class="fab fa-youtube"></i></span>
+                    <span>Coming Soon</span>
+                  </a>
+                </span>
+                <!-- Code Link. -->
+                <span class="link-block">
+                  <a class="button is-normal is-rounded is-dark is-static">
+                    <span class="icon"><i class="fab fa-github"></i></span>
+                    <span>Coming Soon</span>
+                  </a>
+                </span>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- <section class="hero teaser">
+    <div class="container is-max-desktop">
+      <div class="hero-body">
+
+        <img src="./static/images/Figure_main.png" alt="main" style="width: 100%;"> <br>
+        <img src="./static/videos/main_low.gif"
+           alt="teaser animation"
+           style="width:100%;">
+        </img >
+      </div>
+    </div>
+  </section> -->
+
+  <section class="hero teaser">
+    <div class="container is-max-desktop">
+      <div class="hero-body">
+
+        <img src="./static/images/Figure_main.png" alt="main" style="width:100%; display:block; margin:0;">
+
+        <video autoplay muted loop playsinline width="100%">
+          <source src="./static/videos/demo_main_s.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+      </div>
+    </div>
+  </section>
+
+  <!-- highlight.js (syntax highlight) -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/github.min.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
+  <script>hljs.highlightAll();</script>
+  <!-- style_makeblue -->
+  <style>
+    .json-key-strong {
+      font-weight: 700;
+      color: #0d6efd;
+    }
+
+    /* Bulma primary */
+  </style>
+
+  <section class="section">
+    <div class="container is-max-desktop">
+
+      <!-- Re-rendering. -->
+      <h3 class="title is-3"> Comparison of Generated Scenes for Human Operational Space Compliance </h3>
+      <div class="content has-text-justified">
+        <p>
+          The left image shows spatial rules and corresponding actions generated by our proposed LLM-driven
+          Anthropometric Simulator, based on the 3D-FRONT topology.
+          The right image compares generated scenes (ours, InstructScene, and raw 3D-FRONT) for compliance with these
+          rules.
+          <strong>Comparing annotated distances on the generated scenes with anthropometric data and guidelines
+            illustrated below,
+            our results demonstrate effective learning of these constraints. </strong> InstructScene and the raw
+          reference show collisions or violations,
+          whereas our method consistently meets the constraints while preserving visual plausibility from 3D-FRONT. <br>
+        </p>
+      </div>
+
+      <p class="title is-4"><strong>Example 1</strong></p>
+      <div class="content has-text-centered">
+        <img src="./static/images/demo_bed1.png" alt="demo_bedroom1" style="width: 100%;"> <br>
+        <img src="./static/images/demo_bed2.png" alt="demo_bedroom2" style="width: 100%;"> <br>
+        <video autoplay muted loop playsinline width="100%">
+          <source src="./static/videos/demo_bed_s.mp4" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+        <br>
+        <br>
+
+        <p class="title is-4"><strong>Example 2</strong></p>
+        <div class="content has-text-centered">
+          <img src="./static/images/demo_dining1.png" alt="demo_dining1" style="width: 100%;">
+          <img src="./static/images/demo_dining2.png" alt="demo_dining2" style="width: 100%;">
+          <video autoplay muted loop playsinline width="100%">
+            <source src="./static/videos/demo_dining_s.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+          </video>
+          <br>
+          <br>
+          <br>
+          <br>
+
+          <p class="has-text-left"><strong>Ours – Examples Demonstrating Compliance with Clearance, Accessibility, and
+              Alignment Rules</strong></p>
+          <div class="content has-text-centered">
+            <img src="./static/images/demo_Figure4.png" alt="fig4" style="width: 100%;"> <br>
+            <br>
+            <br>
+
+
+          </div>
+          <!--/ Re-rendering. -->
+
+
+          <!-- Prompt AND RUle -->
+          <div class="has-text-centered">
+            <h3 class="title is-3">LLM-driven Anthropometric Simulation</h3>
+            <p class="column content">The pipeline consists of the following two sequential LLM modules. Example outputs
+              from each module are attached as JSON:</p>
+          </div>
+          <!-- Prompt AND RUle -->
+          <!-- ─── 전체 폭 JSON 출력 ─────────────────────────────── -->
+          <div class="content has-text-left">
+            <details open>
+              <summary class="has-text-weight-semibold is-size-5">
+                Full JSON output (click to toggle)
+              </summary>
+              <pre><code class="json">
+                {
+                  "<span class="json-key-strong">scene_id</span>": "0c3c3fdb-6f91-466a-8784-17f8f2a12632_MasterBedroom-17288",
+                  "<span class="json-key-strong">scene_type</span>": "MasterBedroom",
+                  "<span class="json-key-strong">relations</span>": [
+                      {
+                          "subject": "King-size Bed",
+                          "relation": "right of",
+                          "object": "Footstool / Sofastool / Bed End Stool / Stool"
+                      },
+                      {
+                          "subject": "Footstool / Sofastool / Bed End Stool / Stool",
+                          "relation": "right of",
+                          "object": "Wardrobe"
+                      },
+                      {
+                          "subject": "Footstool / Sofastool / Bed End Stool / Stool",
+                          "relation": "left of",
+                          "object": "Nightstand"
+                      },
+                      {
+                          "subject": "King-size Bed",
+                          "relation": "behind",
+                          "object": "Nightstand"
+                      },
+                      {
+                          "subject": "Pendant Lamp",
+                          "relation": "above",
+                          "object": "Footstool / Sofastool / Bed End Stool / Stool"
+                      },
+                      {
+                          "subject": "King-size Bed",
+                          "relation": "in front of",
+                          "object": "Nightstand"
+                      },
+                      {
+                          "subject": "Pendant Lamp",
+                          "relation": "right of",
+                          "object": "Wardrobe"
+                      },
+                      {
+                          "subject": "Pendant Lamp",
+                          "relation": "left of",
+                          "object": "Nightstand"
+                      },
+                      {
+                          "subject": "King-size Bed",
+                          "relation": "below",
+                          "object": "Pendant Lamp"
+                      }
+                  ],
+                  "<span class="json-key-strong">predicted_actions</span>": [
+                      "- human drink while sitting on Footstool / Sofastool / Bed End Stool / Stool",
+                      "- human walk around King-size Bed",
+                      "- human read a book while sitting on King-size Bed",
+                      "- human touch Nightstand",
+                      "- human sit on Footstool / Sofastool / Bed End Stool / Stool",
+                      "- human carry/hold items from Wardrobe to King-size Bed",
+                      "- human lie/sleep on King-size Bed",
+                      "- human stand under Pendant Lamp",
+                      "- human exit the MasterBedroom",
+                      "- human talk to (a person) while sitting on King-size Bed",
+                      "- human open Nightstand",
+                      "- human put down items on Nightstand",
+                      "- human pull Footstool / Sofastool / Bed End Stool / Stool",
+                      "- human get up from King-size Bed",
+                      "- human touch Pendant Lamp",
+                      "- human sit on King-size Bed",
+                      "- human point to Wardrobe"
+                  ],
+                  "<span class="json-key-strong">generated_rules</span>": {
+                      "CLEARANCE_RULE": [
+                          {
+                              "object_pair": [
+                                  "King-size Bed",
+                                  "Wardrobe"
+                              ],
+                              "constraint": "D(King-size Bed, Wardrobe) ≥ 1.17m",
+                              "reason": "Ensure enough space for human to walk around King-size Bed and access wardrobe.",
+                              "related_actions": [
+                                  "human walk around King-size Bed",
+                                  "human carry/hold items from Wardrobe to King-size Bed"
+                              ]
+                          },
+                          {
+                              "object_pair": [
+                                  "King-size Bed",
+                                  "Nightstand"
+                              ],
+                              "constraint": "D(King-size Bed, Nightstand) ≥ 0.76m",
+                              "reason": "Ensure enough space for human to touch and open Nightstand while lying or sitting on the King-size Bed.",
+                              "related_actions": [
+                                  "human touch Nightstand",
+                                  "human open Nightstand"
+                              ]
+                          }
+                      ],
+                      "ACCESSIBILITY_RULE": [
+                          {
+                              "object_pair": [
+                                  "Footstool",
+                                  "Nightstand"
+                              ],
+                              "constraint": "D(Footstool, Nightstand) ≥ 0.56m",
+                              "reason": "Ensure that Nightstand is within reach from the Footstool, aligning with average reach distance.",
+                              "related_actions": [
+                                  "human drink while sitting on Footstool",
+                                  "human put down items on Nightstand"
+                              ]
+                          },
+                          {
+                              "object_pair": [
+                                  "Wardrobe",
+                                  "King-size Bed"
+                              ],
+                              "constraint": "D(Wardrobe, King-size Bed)  ≥ 1.47m",
+                              "reason": "Necessary for the ease of carrying or holding items from wardrobe to bed.",
+                              "related_actions": [
+                                  "human carry/hold items from Wardrobe to King-size Bed"
+                              ]
+                          }
+                      ],
+                      "ALIGNMENT_RULE": [
+                          {
+                              "target_objects": [
+                                  "Pendant Lamp"
+                              ],
+                              "reference_object": "King-size Bed",
+                              "orientation_requirement": "alignment center horizontal",
+                              "reason": "Ensure the Pendant Lamp is centered above the King-size Bed.",
+                              "related_actions": [
+                                  "human lie/sleep on King-size Bed"
+                              ]
+                          }
+                      ]
+                  }
+              }
+      </code></pre>
+            </details>
+          </div> <!-- /content (JSON) -->
+
+
+
+          <div class="columns is-centered">
+            <!-- Human Action Predictor -->
+            <div class="column">
+              <div class="content">
+                <h2 class="title is-4">Human Action Predictor</h2>
+                <p>
+                  Input: Room type, scene description (subject, relation, object), atomic action dictionary.
+                  Output: Human action predictions for the given inputs.
+                </p>
+                <img src="./static/images/action.png" alt="action" style="width: 100%;"> <br>
+              </div>
+            </div>
+
+            <!-- Spatial Rule Generator -->
+            <div class="column">
+              <h2 class="title is-4">Spatial Rule Generator</h2>
+              <div class="columns is-centered">
+                <div class="column content">
+                  <p>
+                    Input: Room type, scene description, anthropometric data and guidelines, anthropometric settings.
+                    Output: Spatial rules corresponding to the given actions and inputs.
+                  </p>
+                  <img src="./static/images/rule.png" alt="rule" style="width: 100%;"> <br>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+  </section>
+
+
+  <section class="section" id="BibTeX">
+    <div class="container is-max-desktop content">
+      <h2 class="title">BibTeX</h2>
+      <pre><code>@article{,
+  author    = {},
+  title     = {Human-Operational 3D Indoor Scene Generation with Large Language Model Driven Anthropometric Simulation},
+  journal   = {},
+  year      = {2025},
+}</code></pre>
+    </div>
+  </section>
+
+</body>
+
+</html>
