@@ -1,0 +1,36 @@
+{
+    "scene_id": "sample_DiningRoom-67890",
+    "scene_type": "DiningRoom",
+    "relations": [
+        {
+            "subject": "Dining Table",
+            "relation": "surrounded by",
+            "object": "Dining Chair"
+        },
+        {
+            "subject": "Dining Chair",
+            "relation": "in front of",
+            "object": "Dining Table"
+        },
+        {
+            "subject": "Sideboard",
+            "relation": "behind",
+            "object": "Dining Table"
+        },
+        {
+            "subject": "Pendant Lamp",
+            "relation": "above",
+            "object": "Dining Table"
+        },
+        {
+            "subject": "Cabinet",
+            "relation": "left of",
+            "object": "Sideboard"
+        },
+        {
+            "subject": "Dining Table",
+            "relation": "below",
+            "object": "Pendant Lamp"
+        }
+    ]
+}

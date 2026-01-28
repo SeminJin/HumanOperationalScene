@@ -1,0 +1,46 @@
+{
+    "scene_id": "00110bde-f580-40be-b8bb-88715b338a2a_Bedroom-43072",
+    "scene_type": "Bedroom",
+    "relations": [
+        {
+            "subject": "King-size Bed",
+            "relation": "in front of",
+            "object": "Wardrobe"
+        },
+        {
+            "subject": "King-size Bed",
+            "relation": "behind",
+            "object": "Corner/Side Table"
+        },
+        {
+            "subject": "King-size Bed",
+            "relation": "right of",
+            "object": "Drawer Chest / Corner cabinet"
+        },
+        {
+            "subject": "King-size Bed",
+            "relation": "left of",
+            "object": "Nightstand"
+        },
+        {
+            "subject": "King-size Bed",
+            "relation": "below",
+            "object": "Ceiling Lamp"
+        },
+        {
+            "subject": "Wardrobe",
+            "relation": "behind",
+            "object": "Corner/Side Table"
+        },
+        {
+            "subject": "Wardrobe",
+            "relation": "left of",
+            "object": "Nightstand"
+        },
+        {
+            "subject": "Ceiling Lamp",
+            "relation": "left of",
+            "object": "Nightstand"
+        }
+    ]
+}

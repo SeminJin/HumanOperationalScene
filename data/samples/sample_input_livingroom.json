@@ -1,0 +1,41 @@
+{
+    "scene_id": "sample_LivingRoom-12345",
+    "scene_type": "LivingRoom",
+    "relations": [
+        {
+            "subject": "Sofa",
+            "relation": "in front of",
+            "object": "TV Stand"
+        },
+        {
+            "subject": "Sofa",
+            "relation": "right of",
+            "object": "Coffee Table"
+        },
+        {
+            "subject": "Coffee Table",
+            "relation": "in front of",
+            "object": "TV Stand"
+        },
+        {
+            "subject": "Armchair",
+            "relation": "left of",
+            "object": "Sofa"
+        },
+        {
+            "subject": "Bookshelf",
+            "relation": "behind",
+            "object": "Sofa"
+        },
+        {
+            "subject": "Floor Lamp",
+            "relation": "right of",
+            "object": "Armchair"
+        },
+        {
+            "subject": "Pendant Lamp",
+            "relation": "above",
+            "object": "Coffee Table"
+        }
+    ]
+}

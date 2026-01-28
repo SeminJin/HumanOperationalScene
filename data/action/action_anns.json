@@ -1,0 +1,1044 @@
+{
+    "label": [
+        {
+            "id": "f23ceb94-7bbe-4857-84d7-233acb480302",
+            "data": {
+                "source": "ava",
+                "label_id": "1"
+            },
+            "annotations": [
+                {
+                    "action": "bend/bow (at the waist)",
+                    "action_type": "PERSON_MOVEMENT"
+                }
+            ]
+        },
+        {
+            "id": "d5bfd095-6616-45c5-9b42-3da4cd2601b7",
+            "data": {
+                "source": "ava",
+                "label_id": "2"
+            },
+            "annotations": [
+                {
+                    "action": "crawl",
+                    "action_type": "PERSON_MOVEMENT"
+                }
+            ]
+        },
+        {
+            "id": "e58a36cf-e7af-4df2-8970-4eeb36ecdbbe",
+            "data": {
+                "source": "ava",
+                "label_id": "3"
+            },
+            "annotations": [
+                {
+                    "action": "crouch/kneel",
+                    "action_type": "PERSON_MOVEMENT"
+                }
+            ]
+        },
+        {
+            "id": "a09cdbb8-1605-44b8-b3c3-e480d2c4cfbc",
+            "data": {
+                "source": "ava",
+                "label_id": "4"
+            },
+            "annotations": [
+                {
+                    "action": "dance",
+                    "action_type": "PERSON_MOVEMENT"
+                }
+            ]
+        },
+        {
+            "id": "23bedf60-a690-42b6-b2cc-237bfcd529f7",
+            "data": {
+                "source": "ava",
+                "label_id": "5"
+            },
+            "annotations": [
+                {
+                    "action": "fall down",
+                    "action_type": "PERSON_MOVEMENT"
+                }
+            ]
+        },
+        {
+            "id": "24ea8b0d-faee-4df7-b213-d46e476d2edc",
+            "data": {
+                "source": "ava",
+                "label_id": "6"
+            },
+            "annotations": [
+                {
+                    "action": "get up",
+                    "action_type": "PERSON_MOVEMENT"
+                }
+            ]
+        },
+        {
+            "id": "20f145cf-c37f-4f2e-8df2-cabff8dfaaa1",
+            "data": {
+                "source": "ava",
+                "label_id": "7"
+            },
+            "annotations": [
+                {
+                    "action": "jump/leap",
+                    "action_type": "PERSON_MOVEMENT"
+                }
+            ]
+        },
+        {
+            "id": "c7090891-7ffe-48fe-be09-30764cc133ab",
+            "data": {
+                "source": "ava",
+                "label_id": "8"
+            },
+            "annotations": [
+                {
+                    "action": "lie/sleep",
+                    "action_type": "PERSON_MOVEMENT"
+                }
+            ]
+        },
+        {
+            "id": "902be1a4-b1ca-42d1-90e4-7228dfae8ebf",
+            "data": {
+                "source": "ava",
+                "label_id": "9"
+            },
+            "annotations": [
+                {
+                    "action": "martial art",
+                    "action_type": "PERSON_MOVEMENT"
+                }
+            ]
+        },
+        {
+            "id": "671e9b87-d0df-408a-9398-4c638d234057",
+            "data": {
+                "source": "ava",
+                "label_id": "10"
+            },
+            "annotations": [
+                {
+                    "action": "run/jog",
+                    "action_type": "PERSON_MOVEMENT"
+                }
+            ]
+        },
+        {
+            "id": "cbda4c9e-537c-4d75-ae9c-dc41099ac654",
+            "data": {
+                "source": "ava",
+                "label_id": "11"
+            },
+            "annotations": [
+                {
+                    "action": "sit",
+                    "action_type": "PERSON_MOVEMENT"
+                }
+            ]
+        },
+        {
+            "id": "5afc07bb-0822-4c2a-9d12-9507578399b8",
+            "data": {
+                "source": "ava",
+                "label_id": "12"
+            },
+            "annotations": [
+                {
+                    "action": "stand",
+                    "action_type": "PERSON_MOVEMENT"
+                }
+            ]
+        },
+        {
+            "id": "befb7d7d-7ad4-4147-9a22-9ec48eb347f0",
+            "data": {
+                "source": "ava",
+                "label_id": "13"
+            },
+            "annotations": [
+                {
+                    "action": "swim",
+                    "action_type": "PERSON_MOVEMENT"
+                }
+            ]
+        },
+        {
+            "id": "eb2211d2-1c15-43f5-b3a4-fe53de4747ff",
+            "data": {
+                "source": "ava",
+                "label_id": "14"
+            },
+            "annotations": [
+                {
+                    "action": "walk",
+                    "action_type": "PERSON_MOVEMENT"
+                }
+            ]
+        },
+        {
+            "id": "dc5a4b91-eef0-49ba-af21-a86e35431435",
+            "data": {
+                "source": "ava",
+                "label_id": "15"
+            },
+            "annotations": [
+                {
+                    "action": "answer phone",
+                    "action_type": "OBJECT_MANIPULATION"
+                }
+            ]
+        },
+        {
+            "id": "e65ee068-c60a-4b6f-bae8-bb2b594bee55",
+            "data": {
+                "source": "ava",
+                "label_id": "16"
+            },
+            "annotations": [
+                {
+                    "action": "brush teeth",
+                    "action_type": "OBJECT_MANIPULATION"
+                }
+            ]
+        },
+        {
+            "id": "564f5d33-df24-42e6-8da5-79ddd2bf3f44",
+            "data": {
+                "source": "ava",
+                "label_id": "17"
+            },
+            "annotations": [
+                {
+                    "action": "carry/hold (an object)",
+                    "action_type": "OBJECT_MANIPULATION"
+                }
+            ]
+        },
+        {
+            "id": "5486d35a-58b2-4d00-bf1e-df753d171883",
+            "data": {
+                "source": "ava",
+                "label_id": "18"
+            },
+            "annotations": [
+                {
+                    "action": "catch (an object)",
+                    "action_type": "OBJECT_MANIPULATION"
+                }
+            ]
+        },
+        {
+            "id": "1a56d2de-0b9d-490d-b04e-500c22f9b324",
+            "data": {
+                "source": "ava",
+                "label_id": "19"
+            },
+            "annotations": [
+                {
+                    "action": "chop",
+                    "action_type": "OBJECT_MANIPULATION"
+                }
+            ]
+        },
+        {
+            "id": "64653cd9-92e3-41e7-9c68-fd4439603513",
+            "data": {
+                "source": "ava",
+                "label_id": "20"
+            },
+            "annotations": [
+                {
+                    "action": "climb (e.g., a mountain)",
+                    "action_type": "OBJECT_MANIPULATION"
+                }
+            ]
+        },
+        {
+            "id": "d3e5e1f9-c94a-45ee-ade5-d8163d6d2981",
+            "data": {
+                "source": "ava",
+                "label_id": "21"
+            },
+            "annotations": [
+                {
+                    "action": "clink glass",
+                    "action_type": "OBJECT_MANIPULATION"
+                }
+            ]
+        },
+        {
+            "id": "4c45b8cf-eb72-41d1-971d-b5abe06a7124",
+            "data": {
+                "source": "ava",
+                "label_id": "22"
+            },
+            "annotations": [
+                {
+                    "action": "close (e.g., a door, a box)",
+                    "action_type": "OBJECT_MANIPULATION"
+                }
+            ]
+        },
+        {
+            "id": "129766cd-1d15-4e64-b492-5abfcc72bc24",
+            "data": {
+                "source": "ava",
+                "label_id": "23"
+            },
+            "annotations": [
+                {
+                    "action": "cook",
+                    "action_type": "OBJECT_MANIPULATION"
+                }
+            ]
+        },
+        {
+            "id": "617631da-d22f-497c-9d53-98ce5ccbcaa9",
+            "data": {
+                "source": "ava",
+                "label_id": "24"
+            },
+            "annotations": [
+                {
+                    "action": "cut",
+                    "action_type": "OBJECT_MANIPULATION"
+                }
+            ]
+        },
+        {
+            "id": "5c11248a-ef15-4db7-9fd7-10a3042fced2",
+            "data": {
+                "source": "ava",
+                "label_id": "25"
+            },
+            "annotations": [
+                {
+                    "action": "dig",
+                    "action_type": "OBJECT_MANIPULATION"
+                }
+            ]
+        },
+        {
+            "id": "5a7cfe9d-7b6c-4d9a-8f07-96e805b17b0e",
+            "data": {
+                "source": "ava",
+                "label_id": "26"
+            },
+            "annotations": [
+                {
+                    "action": "dress/put on clothing",
+                    "action_type": "OBJECT_MANIPULATION"
+                }
+            ]
+        },
+        {
+            "id": "4c9feac3-ed14-4817-8397-969d9a176309",
+            "data": {
+                "source": "ava",
+                "label_id": "27"
+            },
+            "annotations": [
+                {
+                    "action": "drink",
+                    "action_type": "OBJECT_MANIPULATION"
+                }
+            ]
+        },
+        {
+            "id": "82fef87d-9179-448e-8315-cb770555e523",
+            "data": {
+                "source": "ava",
+                "label_id": "28"
+            },
+            "annotations": [
+                {
+                    "action": "drive (e.g., a car, a truck)",
+                    "action_type": "OBJECT_MANIPULATION"
+                }
+            ]
+        },
+        {
+            "id": "7a5899f0-439a-4abe-b047-aeb916338135",
+            "data": {
+                "source": "ava",
+                "label_id": "29"
+            },
+            "annotations": [
+                {
+                    "action": "eat",
+                    "action_type": "OBJECT_MANIPULATION"
+                }
+            ]
+        },
+        {
+            "id": "745a5c36-511e-45ce-9fbb-8d69b3c62c92",
+            "data": {
+                "source": "ava",
+                "label_id": "30"
+            },
+            "annotations": [
+                {
+                    "action": "enter",
+                    "action_type": "OBJECT_MANIPULATION"
+                }
+            ]
+        },
+        {
+            "id": "c553c87e-4cc8-4531-8833-143ec03fe6f7",
+            "data": {
+                "source": "ava",
+                "label_id": "31"
+            },
+            "annotations": [
+                {
+                    "action": "exit",
+                    "action_type": "OBJECT_MANIPULATION"
+                }
+            ]
+        },
+        {
+            "id": "60679735-de4c-4b9b-9f4b-c9326a27709b",
+            "data": {
+                "source": "ava",
+                "label_id": "32"
+            },
+            "annotations": [
+                {
+                    "action": "extract",
+                    "action_type": "OBJECT_MANIPULATION"
+                }
+            ]
+        },
+        {
+            "id": "0e5008d3-dedf-440c-8821-1fa0e4457d86",
+            "data": {
+                "source": "ava",
+                "label_id": "33"
+            },
+            "annotations": [
+                {
+                    "action": "fishing",
+                    "action_type": "OBJECT_MANIPULATION"
+                }
+            ]
+        },
+        {
+            "id": "89462097-3061-4fcc-88fd-6cb19a20c987",
+            "data": {
+                "source": "ava",
+                "label_id": "34"
+            },
+            "annotations": [
+                {
+                    "action": "hit (an object)",
+                    "action_type": "OBJECT_MANIPULATION"
+                }
+            ]
+        },
+        {
+            "id": "9ec89a30-7b97-4ee6-a6a2-28bdcac1e707",
+            "data": {
+                "source": "ava",
+                "label_id": "35"
+            },
+            "annotations": [
+                {
+                    "action": "kick (an object)",
+                    "action_type": "OBJECT_MANIPULATION"
+                }
+            ]
+        },
+        {
+            "id": "39187ff0-08cd-4222-98e9-4f4bbd2f27db",
+            "data": {
+                "source": "ava",
+                "label_id": "36"
+            },
+            "annotations": [
+                {
+                    "action": "lift/pick up",
+                    "action_type": "OBJECT_MANIPULATION"
+                }
+            ]
+        },
+        {
+            "id": "bdaaa4fa-cefe-468c-8660-6fc9895a5f9a",
+            "data": {
+                "source": "ava",
+                "label_id": "37"
+            },
+            "annotations": [
+                {
+                    "action": "listen (e.g., to music)",
+                    "action_type": "OBJECT_MANIPULATION"
+                }
+            ]
+        },
+        {
+            "id": "326bef25-2c62-4075-b80c-6e140e78df00",
+            "data": {
+                "source": "ava",
+                "label_id": "38"
+            },
+            "annotations": [
+                {
+                    "action": "open (e.g., a window, a car door)",
+                    "action_type": "OBJECT_MANIPULATION"
+                }
+            ]
+        },
+        {
+            "id": "cd252fed-fdea-463f-aac8-473f919b4db2",
+            "data": {
+                "source": "ava",
+                "label_id": "39"
+            },
+            "annotations": [
+                {
+                    "action": "paint",
+                    "action_type": "OBJECT_MANIPULATION"
+                }
+            ]
+        },
+        {
+            "id": "da69ef91-9fcc-4d09-bdbd-f420e6557f5a",
+            "data": {
+                "source": "ava",
+                "label_id": "40"
+            },
+            "annotations": [
+                {
+                    "action": "play board game",
+                    "action_type": "OBJECT_MANIPULATION"
+                }
+            ]
+        },
+        {
+            "id": "907e599b-7869-44ae-8c5e-d4c3531f6114",
+            "data": {
+                "source": "ava",
+                "label_id": "41"
+            },
+            "annotations": [
+                {
+                    "action": "play musical instrument",
+                    "action_type": "OBJECT_MANIPULATION"
+                }
+            ]
+        },
+        {
+            "id": "713c7370-055b-41df-9310-52602d9d8dc0",
+            "data": {
+                "source": "ava",
+                "label_id": "42"
+            },
+            "annotations": [
+                {
+                    "action": "play with pets",
+                    "action_type": "OBJECT_MANIPULATION"
+                }
+            ]
+        },
+        {
+            "id": "3df100d7-fa8a-4ded-9fa5-b7b3f5c1a7c4",
+            "data": {
+                "source": "ava",
+                "label_id": "43"
+            },
+            "annotations": [
+                {
+                    "action": "point to (an object)",
+                    "action_type": "OBJECT_MANIPULATION"
+                }
+            ]
+        },
+        {
+            "id": "7069c4b7-054e-4d04-ba9d-55aa89bf83ce",
+            "data": {
+                "source": "ava",
+                "label_id": "44"
+            },
+            "annotations": [
+                {
+                    "action": "press",
+                    "action_type": "OBJECT_MANIPULATION"
+                }
+            ]
+        },
+        {
+            "id": "04c2f858-087b-4cf2-b754-5d6b2ab38ff9",
+            "data": {
+                "source": "ava",
+                "label_id": "45"
+            },
+            "annotations": [
+                {
+                    "action": "pull (an object)",
+                    "action_type": "OBJECT_MANIPULATION"
+                }
+            ]
+        },
+        {
+            "id": "e64f1892-af3b-4530-bd74-c52214a13dd2",
+            "data": {
+                "source": "ava",
+                "label_id": "46"
+            },
+            "annotations": [
+                {
+                    "action": "push (an object)",
+                    "action_type": "OBJECT_MANIPULATION"
+                }
+            ]
+        },
+        {
+            "id": "2f110c94-4830-4f1c-977f-4484651fb27a",
+            "data": {
+                "source": "ava",
+                "label_id": "47"
+            },
+            "annotations": [
+                {
+                    "action": "put down",
+                    "action_type": "OBJECT_MANIPULATION"
+                }
+            ]
+        },
+        {
+            "id": "6d0c99cc-e5db-4c19-9b90-291dae50e12a",
+            "data": {
+                "source": "ava",
+                "label_id": "48"
+            },
+            "annotations": [
+                {
+                    "action": "read",
+                    "action_type": "OBJECT_MANIPULATION"
+                }
+            ]
+        },
+        {
+            "id": "b4465587-0c1a-4c74-a55a-7715881abf71",
+            "data": {
+                "source": "ava",
+                "label_id": "49"
+            },
+            "annotations": [
+                {
+                    "action": "ride (e.g., a bike, a car, a horse)",
+                    "action_type": "OBJECT_MANIPULATION"
+                }
+            ]
+        },
+        {
+            "id": "7651c5a1-0f72-4cc3-b227-a6dd55b9973f",
+            "data": {
+                "source": "ava",
+                "label_id": "50"
+            },
+            "annotations": [
+                {
+                    "action": "row boat",
+                    "action_type": "OBJECT_MANIPULATION"
+                }
+            ]
+        },
+        {
+            "id": "0652d674-bc9f-4289-b10a-da5d6c31891a",
+            "data": {
+                "source": "ava",
+                "label_id": "51"
+            },
+            "annotations": [
+                {
+                    "action": "sail boat",
+                    "action_type": "OBJECT_MANIPULATION"
+                }
+            ]
+        },
+        {
+            "id": "0ee8cdbe-9757-45c5-9060-75010f7abe36",
+            "data": {
+                "source": "ava",
+                "label_id": "52"
+            },
+            "annotations": [
+                {
+                    "action": "shoot",
+                    "action_type": "OBJECT_MANIPULATION"
+                }
+            ]
+        },
+        {
+            "id": "df022720-e513-4f21-bdd7-c2207fe5de5f",
+            "data": {
+                "source": "ava",
+                "label_id": "53"
+            },
+            "annotations": [
+                {
+                    "action": "shovel",
+                    "action_type": "OBJECT_MANIPULATION"
+                }
+            ]
+        },
+        {
+            "id": "932e2d34-4a1d-4491-a51b-bd033bb797d1",
+            "data": {
+                "source": "ava",
+                "label_id": "54"
+            },
+            "annotations": [
+                {
+                    "action": "smoke",
+                    "action_type": "OBJECT_MANIPULATION"
+                }
+            ]
+        },
+        {
+            "id": "fdf5c6df-577d-4df0-be61-4532762561af",
+            "data": {
+                "source": "ava",
+                "label_id": "55"
+            },
+            "annotations": [
+                {
+                    "action": "stir",
+                    "action_type": "OBJECT_MANIPULATION"
+                }
+            ]
+        },
+        {
+            "id": "1e218da5-b535-44fd-ab0d-595db0f776d5",
+            "data": {
+                "source": "ava",
+                "label_id": "56"
+            },
+            "annotations": [
+                {
+                    "action": "take a photo",
+                    "action_type": "OBJECT_MANIPULATION"
+                }
+            ]
+        },
+        {
+            "id": "5c951047-6293-4ca8-a49c-5b9367eaf254",
+            "data": {
+                "source": "ava",
+                "label_id": "57"
+            },
+            "annotations": [
+                {
+                    "action": "text on/look at a cellphone",
+                    "action_type": "OBJECT_MANIPULATION"
+                }
+            ]
+        },
+        {
+            "id": "e820bb7f-7055-47a3-b51d-073ebc00787d",
+            "data": {
+                "source": "ava",
+                "label_id": "58"
+            },
+            "annotations": [
+                {
+                    "action": "throw",
+                    "action_type": "OBJECT_MANIPULATION"
+                }
+            ]
+        },
+        {
+            "id": "2982fb67-b0b7-4ffa-85c6-5bb8fbc6c5cf",
+            "data": {
+                "source": "ava",
+                "label_id": "59"
+            },
+            "annotations": [
+                {
+                    "action": "touch (an object)",
+                    "action_type": "OBJECT_MANIPULATION"
+                }
+            ]
+        },
+        {
+            "id": "a38d5186-b499-465e-b767-76dbe7539b89",
+            "data": {
+                "source": "ava",
+                "label_id": "60"
+            },
+            "annotations": [
+                {
+                    "action": "turn (e.g., a screwdriver)",
+                    "action_type": "OBJECT_MANIPULATION"
+                }
+            ]
+        },
+        {
+            "id": "677cfe4a-62b0-45fc-a09b-725b24a7cfd9",
+            "data": {
+                "source": "ava",
+                "label_id": "61"
+            },
+            "annotations": [
+                {
+                    "action": "watch (e.g., TV)",
+                    "action_type": "OBJECT_MANIPULATION"
+                }
+            ]
+        },
+        {
+            "id": "6f1ee99c-4a68-4405-8378-8f338874db11",
+            "data": {
+                "source": "ava",
+                "label_id": "62"
+            },
+            "annotations": [
+                {
+                    "action": "work on a computer",
+                    "action_type": "OBJECT_MANIPULATION"
+                }
+            ]
+        },
+        {
+            "id": "d45d57f4-d79c-4db3-9395-a5214852af3f",
+            "data": {
+                "source": "ava",
+                "label_id": "63"
+            },
+            "annotations": [
+                {
+                    "action": "write",
+                    "action_type": "OBJECT_MANIPULATION"
+                }
+            ]
+        },
+        {
+            "id": "c05f9c39-3ec8-44a4-be00-27ff5d89945a",
+            "data": {
+                "source": "ava",
+                "label_id": "64"
+            },
+            "annotations": [
+                {
+                    "action": "fight/hit (a person)",
+                    "action_type": "PERSON_INTERACTION"
+                }
+            ]
+        },
+        {
+            "id": "37e57aca-af60-4e87-857c-db23a5e41231",
+            "data": {
+                "source": "ava",
+                "label_id": "65"
+            },
+            "annotations": [
+                {
+                    "action": "give/serve (an object) to (a person)",
+                    "action_type": "PERSON_INTERACTION"
+                }
+            ]
+        },
+        {
+            "id": "b782ad8d-79ca-45f7-b365-f137267a7d28",
+            "data": {
+                "source": "ava",
+                "label_id": "66"
+            },
+            "annotations": [
+                {
+                    "action": "grab (a person)",
+                    "action_type": "PERSON_INTERACTION"
+                }
+            ]
+        },
+        {
+            "id": "619a5d93-b266-4db5-844a-5e256596da9c",
+            "data": {
+                "source": "ava",
+                "label_id": "67"
+            },
+            "annotations": [
+                {
+                    "action": "hand clap",
+                    "action_type": "PERSON_INTERACTION"
+                }
+            ]
+        },
+        {
+            "id": "1fe444d3-7bbe-4660-aa94-dc7df486426f",
+            "data": {
+                "source": "ava",
+                "label_id": "68"
+            },
+            "annotations": [
+                {
+                    "action": "hand shake",
+                    "action_type": "PERSON_INTERACTION"
+                }
+            ]
+        },
+        {
+            "id": "78e38ac8-228f-4ba2-9be3-e25e021283fa",
+            "data": {
+                "source": "ava",
+                "label_id": "69"
+            },
+            "annotations": [
+                {
+                    "action": "hand wave",
+                    "action_type": "PERSON_INTERACTION"
+                }
+            ]
+        },
+        {
+            "id": "bd05522d-1963-419e-8e5f-8fc60efdba64",
+            "data": {
+                "source": "ava",
+                "label_id": "70"
+            },
+            "annotations": [
+                {
+                    "action": "hug (a person)",
+                    "action_type": "PERSON_INTERACTION"
+                }
+            ]
+        },
+        {
+            "id": "e4436b5a-bd60-4619-8f7f-6cc7cbda01b7",
+            "data": {
+                "source": "ava",
+                "label_id": "71"
+            },
+            "annotations": [
+                {
+                    "action": "kick (a person)",
+                    "action_type": "PERSON_INTERACTION"
+                }
+            ]
+        },
+        {
+            "id": "11c8d639-c7f4-4105-892e-981cb52e81c8",
+            "data": {
+                "source": "ava",
+                "label_id": "72"
+            },
+            "annotations": [
+                {
+                    "action": "kiss (a person)",
+                    "action_type": "PERSON_INTERACTION"
+                }
+            ]
+        },
+        {
+            "id": "fcc14e7f-cfab-4a00-8588-dc0c87a1f731",
+            "data": {
+                "source": "ava",
+                "label_id": "73"
+            },
+            "annotations": [
+                {
+                    "action": "lift (a person)",
+                    "action_type": "PERSON_INTERACTION"
+                }
+            ]
+        },
+        {
+            "id": "65b1ddbd-5829-4f8e-a92f-cb091f1ae60e",
+            "data": {
+                "source": "ava",
+                "label_id": "74"
+            },
+            "annotations": [
+                {
+                    "action": "listen to (a person)",
+                    "action_type": "PERSON_INTERACTION"
+                }
+            ]
+        },
+        {
+            "id": "ec446005-89ee-4626-901a-ee2109692158",
+            "data": {
+                "source": "ava",
+                "label_id": "75"
+            },
+            "annotations": [
+                {
+                    "action": "play with kids",
+                    "action_type": "PERSON_INTERACTION"
+                }
+            ]
+        },
+        {
+            "id": "99a2e87b-3eea-4963-bb4a-c7149f79891a",
+            "data": {
+                "source": "ava",
+                "label_id": "76"
+            },
+            "annotations": [
+                {
+                    "action": "push (another person)",
+                    "action_type": "PERSON_INTERACTION"
+                }
+            ]
+        },
+        {
+            "id": "11f5de6d-5769-438d-9be0-8c8d233f9ba4",
+            "data": {
+                "source": "ava",
+                "label_id": "77"
+            },
+            "annotations": [
+                {
+                    "action": "sing to (e.g., self, a person, a group)",
+                    "action_type": "PERSON_INTERACTION"
+                }
+            ]
+        },
+        {
+            "id": "49102da7-06eb-44a2-9fa7-b3188b16a3b7",
+            "data": {
+                "source": "ava",
+                "label_id": "78"
+            },
+            "annotations": [
+                {
+                    "action": "take (an object) from (a person)",
+                    "action_type": "PERSON_INTERACTION"
+                }
+            ]
+        },
+        {
+            "id": "4f978182-e7d2-4caf-a88f-3bdffe022f44",
+            "data": {
+                "source": "ava",
+                "label_id": "79"
+            },
+            "annotations": [
+                {
+                    "action": "talk to (e.g., self, a person, a group)",
+                    "action_type": "PERSON_INTERACTION"
+                }
+            ]
+        },
+        {
+            "id": "5ebe325d-0817-49c6-b60a-d98e593e305d",
+            "data": {
+                "source": "ava",
+                "label_id": "80"
+            },
+            "annotations": [
+                {
+                    "action": "watch (a person)",
+                    "action_type": "PERSON_INTERACTION"
+                }
+            ]
+        }
+    ]
+}
