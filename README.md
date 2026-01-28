@@ -9,7 +9,7 @@ Our approach generates human-operational spatial rules for 3D indoor scenes usin
 1. **Human Action Predictor**: Predicts plausible human actions based on scene topology
 2. **Spatial Rule Generator**: Generates anthropometric-based spatial rules from predicted actions
 
-![Pipeline Overview](../static/images/Figure_main.png)
+![Pipeline Overview](static/images/Figure_main.png)
 
 ## Dataset Structure
 
