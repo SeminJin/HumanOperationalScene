@@ -1,6 +1,8 @@
 # Human-Operational 3D Indoor Scene Generation Dataset
 
-This repository contains the dataset and code for **"Human-Operational 3D Indoor Scene Generation with LLM-Driven Anthropometric Simulation"**.
+This repository contains the dataset and code for **"Human-Operational 3D Indoor Scene Generation with LLM-Driven Anthropometric Simulation"**, published in *Automation in Construction*, 2026.
+
+[[Paper]](https://doi.org/10.1016/j.autcon.2026.106846) [[Video]](https://youtu.be/4vMlSgMkp_4) [[Project Page]](https://seminjin.github.io/HumanOperationalScene/)
 
 ## Overview
 
@@ -181,8 +183,9 @@ client = OpenAI(api_key="YOUR_API_KEY")
 @article{human_operational_scene_2026,
   author    = {Jin, Semin and Hyun, Kyung Hoon},
   title     = {Human-Operational 3D Indoor Scene Generation with LLM-Driven Anthropometric Simulation},
-  journal   = {},
+  journal   = {Automation in Construction},
   year      = {2026},
+  doi       = {10.1016/j.autcon.2026.106846},
 }
 ```
 
