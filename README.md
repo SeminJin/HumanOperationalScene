@@ -180,12 +180,14 @@ client = OpenAI(api_key="YOUR_API_KEY")
 ## Citation
 
 ```bibtex
-@article{human_operational_scene_2026,
-  author    = {Jin, Semin and Hyun, Kyung Hoon},
-  title     = {Human-Operational 3D Indoor Scene Generation with LLM-Driven Anthropometric Simulation},
-  journal   = {Automation in Construction},
-  year      = {2026},
-  doi       = {10.1016/j.autcon.2026.106846},
+@article{jin2026human,
+  title={Human-operational 3D indoor layout generation with LLM-driven anthropometric simulation},
+  author={Jin, Semin and Hyun, Kyung Hoon},
+  journal={Automation in Construction},
+  volume={184},
+  pages={106846},
+  year={2026},
+  publisher={Elsevier}
 }
 ```
 
