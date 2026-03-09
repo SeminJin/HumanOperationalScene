@@ -2,7 +2,7 @@
 
 This repository contains the dataset and code for **"Human-Operational 3D Indoor Scene Generation with LLM-Driven Anthropometric Simulation"**, published in *Automation in Construction*, 2026.
 
-[[Paper]](https://doi.org/10.1016/j.autcon.2026.106846) [[Video]](https://youtu.be/4vMlSgMkp_4) [[Project Page]](https://seminjin.github.io/HumanOperationalScene/)
+[[Paper]](https://doi.org/10.1016/j.autcon.2026.106846) [[Video]](https://ars.els-cdn.com/content/image/1-s2.0-S0926580526000877-mmc1.mp4) [[Project Page]](https://seminjin.github.io/HumanOperationalScene/)
 
 ## Overview
 
